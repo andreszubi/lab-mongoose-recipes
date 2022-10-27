@@ -39,7 +39,7 @@ async function connectToDataBase() {
   //console.log(recipe1.title);
 
   //const newRecipes = await Recipe.insertMany(data);
-  //cosole.log(data.title);
+  //return console.log(data.title);
 
  /*await Recipe.findOneAndUpdate({title: "Rigatoni alla Genovese"},
   {duration: 100},
