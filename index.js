@@ -39,6 +39,7 @@ async function connectToDataBase() {
   //console.log(recipe1.title);
 
   //const newRecipes = await Recipe.insertMany(data);
+  //cosole.log(data.title);
 
  /*await Recipe.findOneAndUpdate({title: "Rigatoni alla Genovese"},
   {duration: 100},
@@ -49,6 +50,7 @@ async function connectToDataBase() {
   //console.log("Recipe deleted");
   
   mongoose.disconnect();
+  (console.log("Disconnected"));
   }
    catch (error) {
   console.error('Error connecting to the database', error);
